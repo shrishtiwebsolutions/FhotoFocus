@@ -1,0 +1,19 @@
+/>
+-
+Delete the three \`@import url("https://fonts.googleapis.com/…")\` lines at the very top.
+\
+-
+Replace the \`.font-display`, \`.font-serif`, and \`.font-sans\` blocks so they use the CSS variables that next/font/google exports:
+
+``\`css
+.font-display {          /* Cormorant Garamond */
+  font-family: var(--font-display);
+}
+.font-serif {
+  /* Crimson Text       */
+  font-family: var(--font-serif);
+}
+.font-sans {
+  /* Inter              */
+  font-family: var(--font-sans);
+}
