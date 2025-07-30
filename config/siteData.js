@@ -3,7 +3,7 @@ export const siteData = {
   hero: {
     mainImage: "https://res.cloudinary.com/dtrrsp1ll/image/upload/v1750310782/Screenshot_2025-06-19_105119_m96ahe.png",
     alt: "Elegant couple portrait in black and white",
-    title: "FhotoFocus Photography",
+    title: "gaami.in Photography",
     subtitle: "Modern ◆ Luxury ◆ Destination ",
   },
 
@@ -89,11 +89,11 @@ export const siteData = {
   contact: {
     title: "Lets Turn Moments Into Art",
     subtitle: "Excited to see your special day in a new light? Let's connect and plan how to capture it beautifully",
-    email: "fhotofocusphotography@gmail.com",
+    email: "hello@gaami.in",
     phone: "+91 98765 43210",
     social: {
-      instagram: "https://www.instagram.com/fhotofocusphotography/#",
-      youtube: "https://www.youtube.com/@fhotofocusphotography",
+      instagram: "https://www.instagram.com/gaami.in/",
+      youtube: "https://www.youtube.com/@gaami.in",
     },
   },
 }

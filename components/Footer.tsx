@@ -16,13 +16,13 @@ export default function Footer() {
               <div className="relative w-12 h-12">
                 <Image
                   src="/images/fhotofocus-logo.png"
-                  alt="FhotoFocus Photography Logo"
+                  alt="gaami.in Photography Logo"
                   fill
                   className="object-contain"
                 />
               </div>
               <div>
-                <h3 className="font-display text-2xl font-medium">FhotoFocus</h3>
+                <h3 className="font-display text-2xl font-medium">gaami.in</h3>
                 <p className="text-gray-400 text-sm">Photography</p>
               </div>
             </div>
@@ -107,10 +107,10 @@ export default function Footer() {
                 <div>
                   <p className="text-gray-300 text-sm">Email us</p>
                   <a
-                    href="mailto:fhotofocusphotography@gmail.com"
+                    href="mailto:hello@gaami.in"
                     className="text-white hover:text-amber-400 transition-colors font-medium break-all"
                   >
-                    fhotofocusphotography@gmail.com
+                    hello@gaami.in
                   </a>
                 </div>
               </div>
@@ -129,7 +129,7 @@ export default function Footer() {
               <p className="text-gray-300 text-sm mb-3">Follow our journey</p>
               <div className="flex gap-4">
                 <a
-                  href="https://www.instagram.com/fhotofocusphotography/"
+                  href="https://www.instagram.com/gaami.in/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-amber-600 transition-colors duration-300 group"
@@ -137,7 +137,7 @@ export default function Footer() {
                   <Instagram className="w-5 h-5 text-gray-300 group-hover:text-white" />
                 </a>
                 <a
-                  href="https://www.youtube.com/@fhotofocusphotography"
+                  href="https://www.youtube.com/@gaami.in"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-amber-600 transition-colors duration-300 group"
@@ -158,7 +158,7 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             {/* Copyright */}
             <div className="flex items-center gap-2 text-gray-400 text-sm">
-              <span>© {currentYear} FhotoFocus Photography. Made with</span>
+              <span>© {currentYear} gaami.in Photography. Made with</span>
               <Heart className="w-4 h-4 text-red-500" />
               <span>in India</span>
             </div>

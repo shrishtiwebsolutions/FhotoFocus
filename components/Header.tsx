@@ -54,13 +54,13 @@ export default function Header() {
               <div className="relative w-16 h-16">
                 <Image
                   src="/images/fhotofocus-logo.png"
-                  alt="FhotoFocus Photography Logo"
+                  alt="gaami.in Photography Logo"
                   fill
                   className="object-contain"
                   priority
                 />
               </div>
-              <span className="sr-only">FhotoFocus Photography Home</span>
+              <span className="sr-only">gaami.in Photography Home</span>
             </Link>
           </div>
 
@@ -93,7 +93,7 @@ export default function Header() {
 
           {/* Social + CTA on desktop */}
           <div className="hidden lg:flex lg:flex-1 lg:justify-end lg:items-center lg:gap-4">
-            <Link href="https://www.instagram.com/fhotofocusphotography/" className={iconColor} target="_blank">
+            <Link href="https://www.instagram.com/gaami.in/" className={iconColor} target="_blank">
               <Instagram className="h-5 w-5" />
             </Link>
             <Button asChild className="ml-4 bg-amber-700 hover:bg-amber-800 text-white px-6 py-2">
@@ -116,7 +116,7 @@ export default function Header() {
                 <div className="relative w-12 h-12">
                   <Image
                     src="/images/fhotofocus-logo.png"
-                    alt="FhotoFocus Photography Logo"
+                    alt="gaami.in Photography Logo"
                     fill
                     className="object-contain"
                   />
@@ -148,10 +148,7 @@ export default function Header() {
             </div>
 
             <div className="mt-8 flex gap-4">
-              <Link
-                href="https://www.instagram.com/fhotofocusphotography/"
-                className="text-gray-600 hover:text-gray-900"
-              >
+              <Link href="https://www.instagram.com/gaami.in/" className="text-gray-600 hover:text-gray-900">
                 <Instagram className="h-6 w-6" />
               </Link>
             </div>

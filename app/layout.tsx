@@ -5,8 +5,8 @@ import Header from "@/components/Header"
 import Footer from "@/components/Footer"
 
 export const metadata: Metadata = {
-  title: "FhotoFocus Photography",
-  description: "Photography, Films, and Creative Content",
+  title: "gaami.in - Professional Photography",
+  description: "Professional Photography, Films, and Creative Content by gaami.in",
   generator: "v0.dev",
   icons: {
     icon: "/images/fhotofocus-logo.png",
